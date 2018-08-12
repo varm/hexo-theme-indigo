@@ -1,5 +1,6 @@
 hexo-theme-material-indigo
 ================
+Forked and modified from  [yscoder](https://github.com/yscoder/hexo-theme-indigo).  
 
 [![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-indigo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
