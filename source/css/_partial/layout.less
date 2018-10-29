@@ -44,11 +44,13 @@
 
     .brand {
         padding: 40px @menuPadding 2em;
-        background: fade(@primaryColor, 50%);
+        /*background: fade(@primaryColor, 50%);*/
+        background: rgba(0, 0, 0, .05);
+        text-align: center;
     }
 
     .avatar {
-        display: block;
+        /*display: block; */
         width: 80px;
         height: 80px;
         border: 2px solid #fff;
@@ -126,7 +128,7 @@
     padding: 30px 0 40px;
     min-height: ~'calc(100vh - 340px)';
 }
-
+#page-content{ width:80%;}
 .container {
     width: @contentWidth;
     margin: 0 auto;
@@ -241,6 +243,22 @@ a[title="站长统计"] {
         .brand {
             padding-top: 20px;
             padding-bottom: 1em;
+        }
+        img{
+            margin: 0 auto;
+            -webkit-border-radius: 110px;
+            border-radius: 110px;
+            -webkit-transition: -webkit-transform 0.2s ease-out;
+            -moz-transition: -moz-transform 0.2s ease-out;
+            -o-transition: -o-transform 0.2s ease-out;
+            -ms-transition: -ms-transform 0.2s ease-out;
+        }
+         img:hover{
+            -webkit-transform: rotateZ(180deg);
+            -moz-transform: rotateZ(180deg);
+            -o-transform: rotateZ(180deg);
+            -ms-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
         }
 
         .nav {

@@ -264,6 +264,7 @@
 @fa-var-digg: "\f1a6";
 @fa-var-dollar: "\f155";
 @fa-var-dot-circle-o: "\f192";
+@fa-var-douban: "\e900";
 @fa-var-download: "\f019";
 @fa-var-dribbble: "\f17d";
 @fa-var-drivers-license: "\f2c2";
@@ -841,10 +842,12 @@
 @fa-var-youtube: "\f167";
 @fa-var-youtube-play: "\f16a";
 @fa-var-youtube-square: "\f166";
+@fa-var-F2A1: "\F2A1";
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
+   .@{fa-css-prefix}-F2A1:before { content: @fa-var-F2A1; }
 .@{fa-css-prefix}-glass:before { content: @fa-var-glass; }
 .@{fa-css-prefix}-music:before { content: @fa-var-music; }
 .@{fa-css-prefix}-search:before { content: @fa-var-search; }
@@ -1252,6 +1255,7 @@
 .@{fa-css-prefix}-bug:before { content: @fa-var-bug; }
 .@{fa-css-prefix}-vk:before { content: @fa-var-vk; }
 .@{fa-css-prefix}-weibo:before { content: @fa-var-weibo; }
+.@{fa-css-prefix}-douban:before { content: @fa-var-douban; }
 .@{fa-css-prefix}-renren:before { content: @fa-var-renren; }
 .@{fa-css-prefix}-pagelines:before { content: @fa-var-pagelines; }
 .@{fa-css-prefix}-stack-exchange:before { content: @fa-var-stack-exchange; }
@@ -1399,7 +1403,7 @@
 .@{fa-css-prefix}-cc:before { content: @fa-var-cc; }
 .@{fa-css-prefix}-shekel:before,
 .@{fa-css-prefix}-sheqel:before,
-.@{fa-css-prefix}-ils:before { content: @fa-var-ils; }
+.@{fa-css-prefix}-douban:before { content: @fa-var-ils; }
 .@{fa-css-prefix}-meanpath:before { content: @fa-var-meanpath; }
 .@{fa-css-prefix}-buysellads:before { content: @fa-var-buysellads; }
 .@{fa-css-prefix}-connectdevelop:before { content: @fa-var-connectdevelop; }

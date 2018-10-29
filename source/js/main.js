@@ -106,10 +106,18 @@
                 }
             }
 
-            var bannerH = $('.post-header').clientHeight,
+            var sbannerH = $('.post-header'),
                 headerH = header.clientHeight,
-                titles = $('#post-content').querySelectorAll('h1, h2, h3, h4, h5, h6');
-
+                cnt = $('#post-content');
+                
+                if(sbannerH==null){
+                    sbannerH=$('.page-header');
+                }
+                bannerH=sbannerH.clientHeight;
+                if(cnt==null){
+                    cnt=$('#page-content');
+                }
+             titles=cnt.querySelectorAll('h1, h2, h3, h4, h5, h6');
             toc.querySelector('a[href="#' + titles[0].id + '"]').parentNode.classList.add('active');
 
             // Make every child shrink initially
